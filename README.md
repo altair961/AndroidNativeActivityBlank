@@ -3,8 +3,8 @@ Blank Android project with native activity and Ant building
 
 This is a blank Android project with Native Activity
 
-in order to build it you need first being in the root directory of the
-project run:
+If you do not have build.xml file in the root directory of the project
+you need first generate it:
 
 android update project --path .
 

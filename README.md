@@ -1,7 +1,8 @@
 # AndroidNativeActivityBlank
-Blank Android project with native activity and Ant building  
 
-This is a blank Android project with Native Activity
+This is a blank Android project with a native activity and Ant building system
+
+First we need to run ndk-build in the root directory of the project.
 
 If you do not have build.xml file in the root directory of the project
 you need first generate it:

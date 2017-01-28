@@ -7,7 +7,11 @@ First we need to run ndk-build in the root directory of the project.
 If you do not have build.xml file in the root directory of the project
 you need first generate it:
 
-android update project --path .
+android update project --path . -t 1
+
+-t 1 means we set our target id to 1. To list all options we need to run:
+
+android list targets
 
 That will generate build.xml file that is required for building with ant
 Then we need to run:
